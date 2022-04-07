@@ -28,4 +28,22 @@
         android:name="com.example.infocentre.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_gotov_rab"
+        android:name="com.example.infocentre.ui.gotov_rab.GotovFragment"
+        android:label="@string/menu_gotov_rab"
+        tools:layout="@layout/fragment_gotov_rab" />
+
+    <fragment
+        android:id="@+id/nav_rukovod"
+        android:name="com.example.infocentre.ui.rukovod.RukovodFragment"
+        android:label="@string/menu_rukovod"
+        tools:layout="@layout/fragment_rukovod" />
+
+    <fragment
+        android:id="@+id/nav_poddershka"
+        android:name="com.example.infocentre.ui.poddershka.PoddershkaFragment"
+        android:label="@string/menu_poddershka"
+        tools:layout="@layout/fragment_poddershka" />
 </navigation>

@@ -6,29 +6,137 @@
     android:layout_height="match_parent"
     tools:context=".ui.gallery.GalleryFragment">
 
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Основной вид деятельности:"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textColorHighlight="#9C27B0"
+                android:textColorLink="#673AB7"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="62.01	Разработка компьютерного программного обеспечения"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#9C27B0"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="Дополнительные виды деятельности:"
+                android:textAlignment="center"
+                android:textColor="#673AB7"
+                android:textColorHighlight="#9C27B0"
+                android:textColorLink="#673AB7"
+                android:textSize="14sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="46.51	Торговля оптовая компьютерами, периферийными устройствами к компьютерам и программным обеспечением"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#9C27B0"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="47.41	Торговля розничная компьютерами, периферийными устройствами к ним и программным обеспечением в специализированных магазинах"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#9C27B0"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="62.02	Деятельность консультативная и работы в области компьютерных технологий"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#9C27B0"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="63.11.1	Деятельность по созданию и использованию баз данных и информационных ресурсов"
+                android:textColor="#3F51B5"
+                android:textColorHighlight="#9C27B0"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableLayout>
+
     <TextView
         android:id="@+id/text_gallery"
-        android:layout_width="356dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_width="344dp"
+        android:layout_height="6dp"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
-
-    <ListView
-        android:id="@+id/countriesList"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

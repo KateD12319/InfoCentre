@@ -4,19 +4,195 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="0sp"
     tools:context=".ui.slideshow.SlideshowFragment">
+
+
+    <TextView
+        android:id="@+id/text_slideshow3"
+        android:layout_width="344dp"
+        android:layout_height="165dp"
+        android:autoLink="web|email"
+        android:text="TextView"
+        android:textColor="#673AB7"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_slideshow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textColor="#9C27B0"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_slideshow"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_slideshow"
-        android:layout_width="408dp"
-        android:layout_height="591dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="#9C27B0"
+        android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        tools:ignore="MissingConstraints" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="АРМ «ST - Торговый представитель»"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="3 800 рублей"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="АРМ «ST - Торговый представитель ПЛЮС»"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="6 000 рублей"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="АРМ «ST - Мерчандайзер»"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="3 000 рублей"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="АРМ «ST - Инкассатор»"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="2 800 рублей"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="«ST - Сервер обмена данными ПЛЮС»"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="9 000 рублей"
+                android:textColor="#9C27B0"
+                android:textColorHighlight="#3F51B5"
+                android:textColorLink="#673AB7"
+                android:textSize="12sp" />
+        </TableRow>
+
+    </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

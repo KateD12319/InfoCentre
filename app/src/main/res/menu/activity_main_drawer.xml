@@ -5,13 +5,13 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_history"
-            android:icon="@drawable/company"
-            android:title="@string/menu_history" />
-        <item
             android:id="@+id/nav_home"
             android:icon="@drawable/img_392273"
             android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/company"
+            android:title="@string/menu_history" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/img_542897"
@@ -20,5 +20,21 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/noroot"
             android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_gotov_rab"
+            android:icon="@drawable/ic_baseline_queue_play_next_24"
+            android:title="@string/menu_gotov_rab" />
     </group>
+    <item android:title="Связи">
+        <menu>
+            <item
+                android:id="@+id/nav_rukovod"
+                android:icon="@drawable/svyc"
+                android:title="@string/menu_rukovod" />
+            <item
+                android:id="@+id/nav_poddershka"
+                android:icon="@drawable/ic_baseline_support_agent_24"
+                android:title="@string/menu_poddershka" />
+        </menu>
+    </item>
 </menu>

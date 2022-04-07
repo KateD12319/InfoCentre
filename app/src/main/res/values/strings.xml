@@ -5,10 +5,13 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Настройки</string>
 
     <string name="menu_history">О компании</string>
     <string name="menu_home">Общая информация</string>
     <string name="menu_gallery">Виды деятельности</string>
     <string name="menu_slideshow">Прайс-лист</string>
+    <string name="menu_gotov_rab">Готовые решения</string>
+    <string name="menu_rukovod">Другие организации</string>
+    <string name="menu_poddershka">Поддержка</string>
 </resources>
