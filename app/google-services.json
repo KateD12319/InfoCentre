@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "277162901285",
+    "project_id": "infocentre-3b4ca",
+    "storage_bucket": "infocentre-3b4ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277162901285:android:358e074c94a774726d24cc",
+        "android_client_info": {
+          "package_name": "com.example.infocentre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277162901285-m4leefk7nd6jdkn3lkht0qi4ocd040qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxonyKul-SUKp3Do4zhxzGmtcmjKP8_LI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277162901285-m4leefk7nd6jdkn3lkht0qi4ocd040qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
